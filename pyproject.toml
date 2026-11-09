@@ -1,0 +1,19 @@
+[project]
+name = "tutorial"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Clyde Anthony P. Ancheta", email = "clyde.a.p.ancheta@accenture.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "google-adk>=2.14.0",
+]
+
+[project.scripts]
+tutorial = "tutorial:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
