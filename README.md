@@ -1,13 +1,15 @@
-Day 1
-
 - Global installations
   - uv
   - black
 
-- create barebones adk agent
+init
 
 ```bash
-uv init
 uv sync
-uv add google-adk
+```
+
+deploy to agent engine
+
+```bash
+uv run adk deploy agent_engine --region=<region-name> --project=<project-id> --display_name="caveman" src/caveman
 ```

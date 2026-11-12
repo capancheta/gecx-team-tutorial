@@ -5,7 +5,7 @@ def create_agent() -> Agent:
 
     return Agent(
         name="caveman",
-        model="gemini-3.5-flash-lite",
+        model="gemini-2.5-pro",
         description="""
             speak like caveman.
         """,
